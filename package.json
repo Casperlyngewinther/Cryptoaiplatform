@@ -1,0 +1,40 @@
+{
+  "name": "ai-crypto-trading-platform",
+  "version": "2.0.0",
+  "description": "Autonomous AI-Driven Cryptocurrency Trading Platform with Multi-Exchange Support",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "test": "node test_cryptocom_integration.js",
+    "test:v2": "node test_v2.js",
+    "test:advanced": "node test_advanced_features.js",
+    "test:all": "node test_all_exchanges.js",
+    "quick-start": "./start.sh",
+    "setup": "cp .env.template .env && npm install",
+    "health": "curl http://localhost:3000/api/health",
+    "status:v2": "curl http://localhost:3000/api/v2/status",
+    "status:features": "curl http://localhost:3000/api/v2/features/status"
+  },
+  "keywords": ["cryptocurrency", "trading", "ai", "bitcoin", "blockchain", "exchanges"],
+  "author": "MiniMax Agent",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0",
+    "axios": "^1.5.0",
+    "ws": "^8.13.0",
+    "crypto-js": "^4.1.1",
+    "node-cron": "^3.0.2",
+    "sqlite3": "^5.1.6",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^9.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

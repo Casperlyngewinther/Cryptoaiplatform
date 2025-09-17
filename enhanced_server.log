@@ -1,0 +1,22 @@
+nohup: ignoring input
+🔧 Initializing Crypto.com Exchange...
+🔗 Connecting to Crypto.com...
+✅ Crypto.com API connection successful
+✅ Crypto.com WebSocket connected
+📊 Crypto.com Exchange: Connected ✅
+🚀 Enhanced Trading Server running on http://localhost:5000
+📊 Dashboard: http://localhost:5000/dashboard
+🤖 Auto Trading API Ready
+💱 Crypto.com Integration: Active ✅
+
+Available API Endpoints:
+  GET  /api/autotrading/status
+  POST /api/autotrading/toggle
+  GET  /api/trading/history
+  GET  /api/risk/metrics
+  GET  /api/performance/metrics
+  GET  /api/status/detailed
+  GET  /api/autotrading/strategies
+  GET  /api/markets (REAL DATA) 🔥
+🔌 Crypto.com WebSocket disconnected (Code: 1000, Reason: )
+🤖 Auto trading started with strategy: conservative
